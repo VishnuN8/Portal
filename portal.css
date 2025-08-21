@@ -1,0 +1,49 @@
+ body{
+
+    background:radial-gradient(circle, rgb(52, 52, 165) , black 60%) ;
+    height:100vh;
+
+ }
+
+ .img1{
+    border-radius: 50%;
+    height: 290px;
+    width: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0 0 20px blue;
+    transition: ease-in-out 1.23s;
+ }
+
+ .img1trap{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 85vh;
+
+ }
+
+ .img1:hover{
+    height: 295px;
+    width: 295px;
+    box-shadow: 0 0 60px blue;
+    transform: scale(1.23);
+ }
+
+  .div1{
+   display: flex;
+    overflow: scroll;
+    background-color: aliceblue;
+    width: 200px;
+   height: 50px;
+   text-align: center;
+ }
+
+.div1trap{
+   display: flex;
+   justify-content: center;
+
+
+}
